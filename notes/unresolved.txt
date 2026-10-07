@@ -2,8 +2,3 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-LightShow() | touchdown_poker.so
-LightShowManager::Play(LightShowManager::Sequences, bool, bool) | touchdown_poker.so
-ads::in_game_ads::get_ad_name(xml_gameinfo::GameIds) | touchdown_poker.so
-Profiler::DumpResults() | touchdown_poker.so
-Profiler::GetInstance() | touchdown_poker.so

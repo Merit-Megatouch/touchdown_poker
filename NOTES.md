@@ -1,6 +1,6 @@
 # TOUCHDOWN POKER (touchdown_poker)
 
-Status: scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
+Status: **runs (smoke-tested)** — starts, renders and reacts to taps headless; not yet played by hand. Scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
 
 ## Checklist
 - [ ] Window size in game.conf matches the largest PNG (notes/scaffold.md)
@@ -15,3 +15,4 @@ Status: scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
 
 ## Log
 <!-- dated notes: what broke, what fixed it -->
+- 2026-10-07 — smoke test 2026-10-07: tools/smoke.sh runs 25 s headless with taps; no crash, screens render (build/smoke/touchdown_poker). 
